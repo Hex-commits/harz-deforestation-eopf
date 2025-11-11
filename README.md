@@ -9,3 +9,8 @@ Interesting topics:
 - Influence on heat retention
 - Influence on land slides frequency
   - Newspaper-Database to enrich dataset 
+- Influence on Biodiversity
+- Temporal-spatial analysis of respective areas
+- Spread of bark beetle?
+  - Maybe: Other dataset containing exactly that --> Trees dying = beetle is there
+  - Compare areas that are not affected, even though it is still forest (maybe even monoculture) 
