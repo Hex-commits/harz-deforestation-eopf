@@ -3,6 +3,7 @@
 Motivation: 
 In the area of the "Harz Naturschutzgebiet" there was a lot of monoculture of certain tree species, particularly vulnurable to insect disease, which in turn lead to a huge deforestation of the area starting around 2018. As this is within the timeframe of Sentinel-2, it would be interesting to see how the deforestation affected the area. 
 
+The goal is to see the effects of the dying monoculture of trees, aswell as trying to see the new growth for a more sustainable forest, which is currently growing. The question is, how easy it is to see, especially as the new trees are still in the initial growth phase. 
 
 Links for Research:
 Dying of the trees
