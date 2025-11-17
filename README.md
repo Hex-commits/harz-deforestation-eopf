@@ -5,6 +5,8 @@ In the area of the "Harz Naturschutzgebiet" there was a lot of monoculture of ce
 
 The goal is to see the effects of the dying monoculture of trees, aswell as trying to see the new growth for a more sustainable forest, which is currently growing. The question is, how easy it is to see, especially as the new trees are still in the initial growth phase. 
 
+In terms of the working environment, we would like to generate thematic files, which we can then use to come together and integrate them to a fully fledged report. The standard procedure should be defined together, then we split into (mostly) solo work and then we come together to integrate the results. 
+
 Links for Research:
 Dying of the trees
 https://www.harzinfo.de/naturlandschaft-harz/initiative-der-wald-ruft/hintergruende
@@ -24,3 +26,14 @@ Interesting topics:
 - Spread of bark beetle?
   - Maybe: Other dataset containing exactly that --> Trees dying = beetle is there
   - Compare areas that are not affected, even though it is still forest (maybe even monoculture) 
+
+Roles: 
+
+- Current selection of topics:
+
+Phil: deforestation, air quality, land slides
+
+Aarya: Heat retention
+
+Randy: Biodiversity
+
