@@ -1,0 +1,13 @@
+geopandas
+matplotlib
+numpy
+requests
+xarray
+shapely
+s3fs
+distributed
+zarr
+rioxarray
+scikit-learn
+folium
+mapclassify
