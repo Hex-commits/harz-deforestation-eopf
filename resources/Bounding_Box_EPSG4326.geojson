@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "bounding_box_EPSG4326",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 6, "KENNZ_FFN": "NLP NDS 00002", "NAME": "Harz", "ZONE": null, "KATEGORIE": "Nationalpark", "VOLLZUG": "NLP-Verwaltung Nationalpark Harz", "RECHT_VOM": "2001-07-25", "RECHT_SEIT": "2001-08-11", "VEROEFF_IN": null, "SHAPE_area": 157729481.80199999, "SHAPE_len": 164727.23858800001, "width": 0.328408, "height": 0.23217, "area": 0.076246, "perimeter": 1.121156 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 10.319215601080302, 51.668337007786938 ], [ 10.647623146751698, 51.668337007786938 ], [ 10.647623146751698, 51.900507314629152 ], [ 10.319215601080302, 51.900507314629152 ], [ 10.319215601080302, 51.668337007786938 ] ] ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 10, "KENNZ_FFN": "NLP NDS 00002", "NAME": "Harz", "ZONE": null, "KATEGORIE": "Nationalpark", "VOLLZUG": "NLP-Verwaltung Nationalpark Harz", "RECHT_VOM": "2001-07-25", "RECHT_SEIT": "2001-08-11", "VEROEFF_IN": null, "SHAPE_area": 736178.91903, "SHAPE_len": 14668.7406546, "width": 0.076176, "height": 0.063503, "area": 0.004837, "perimeter": 0.279357 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 10.507064536965965, 51.740403235237807 ], [ 10.583240220420402, 51.740403235237807 ], [ 10.583240220420402, 51.803906300157465 ], [ 10.507064536965965, 51.803906300157465 ], [ 10.507064536965965, 51.740403235237807 ] ] ] } }
+]
+}
