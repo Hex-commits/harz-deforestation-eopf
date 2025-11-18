@@ -14,6 +14,14 @@ https://www.harzinfo.de/naturlandschaft-harz/initiative-der-wald-ruft/hintergrue
 New vegetation growth
 https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/Nach-Waldsterben-Junger-Mischwald-im-Harz-entwickelt-sich-2025-gut,mischwald100.html
 
+Nagendra, H. (2001). Using remote sensing to assess biodiversity. International Journal of Remote Sensing, 22(12), 2377–2400. https://doi.org/10.1080/01431160117096
+
+Turner, W., Spector, S., Gardiner, N., Fladeland, M., Sterling, E., & Steininger, M. (2003). Remote sensing for biodiversity science and conservation. Trends in Ecology & Evolution, 18(6), 306–314. doi:10.1016/S0169-5347(03)00070-3
+
+Siebert C, Brauns M, Remmler P, Geyer S, Sauke F, Musolff A, Lechtenfeld O, Herzsprung P, Cheng M, Schmidt S, Rode M, Friese K (2025) The Harz Mountain Observatory: a hydro-ecological observatory for long-term effects of large-scale forest change. ARPHA Conference Abstracts 8: e155870. https://doi.org/10.3897/aca.8.e155870
+
+Seidl, R., Müller, J., Hothorn, T., Bässler, C., Heurich, M. and Kautz, M. (2016), Small beetle, large-scale drivers: how regional and landscape factors affect outbreaks of the European spruce bark beetle. J Appl Ecol, 53: 530-540. https://doi.org/10.1111/1365-2664.12540 
+
 
 Interesting topics: 
 - Deforestation
