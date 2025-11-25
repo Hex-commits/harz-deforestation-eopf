@@ -1,5 +1,7 @@
 # harz-deforestation-eopf
 
+## Summary
+
 Motivation: 
 In the area of the "Harz Naturschutzgebiet" there was a lot of monoculture of certain tree species, particularly vulnurable to insect disease, which in turn lead to a huge deforestation of the area starting around 2018. As this is within the timeframe of Sentinel-2, it would be interesting to see how the deforestation affected the area. 
 
@@ -45,3 +47,21 @@ Aarya: Heat retention
 
 Randy: Biodiversity
 
+## Conda Env Installation
+
+Run the following commands to create the conda environment:  
+```
+conda env create -n eopf -f environment_eopf.yml
+```
+Then activate the environment and create the kernel for use in jupyter notebook.
+```
+python -m ipykernel install --user --name eopf --display-name "Python (eopf)"
+```
+Then, select the kernel in a jupyter notebook. Kernel -> Change Kernel -> Python (eopf)  
+When you are using the xarray-eopf or xcube-eopf modules, you must run this shim:
+```
+try:
+    from xcube_resampling.constants import AggMethods  # if it exists, fine
+except Exception:
+    from xcube_resampling.constants import AGG_METHODS as AggMethods
+```
