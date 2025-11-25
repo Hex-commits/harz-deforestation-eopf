@@ -41,7 +41,7 @@ Roles:
 
 Phil: deforestation, air quality, land slides
 
-Aarya: Heat retention
+Arya: Heat retention
 
-Randy: Biodiversity
+Randy: Biodiversity, Deforestation
 

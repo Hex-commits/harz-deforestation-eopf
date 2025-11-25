@@ -1,7 +1,7 @@
 {
-  "coordinates": "time",
-  "_ARRAY_DIMENSIONS": [
-    "y",
-    "x"
-  ]
+    "_ARRAY_DIMENSIONS": [
+        "y",
+        "x"
+    ],
+    "coordinates": "time"
 }
