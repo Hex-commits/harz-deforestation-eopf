@@ -6,7 +6,7 @@
         },
         "b02/.zarray": {
             "chunks": [
-                1356,
+                1314,
                 1159
             ],
             "compressor": {
@@ -21,7 +21,7 @@
             "filters": null,
             "order": "C",
             "shape": [
-                1356,
+                1314,
                 1159
             ],
             "zarr_format": 2
@@ -81,7 +81,7 @@
         },
         "b03/.zarray": {
             "chunks": [
-                1356,
+                1314,
                 1159
             ],
             "compressor": {
@@ -96,7 +96,7 @@
             "filters": null,
             "order": "C",
             "shape": [
-                1356,
+                1314,
                 1159
             ],
             "zarr_format": 2
@@ -156,7 +156,7 @@
         },
         "b04/.zarray": {
             "chunks": [
-                1356,
+                1314,
                 1159
             ],
             "compressor": {
@@ -171,7 +171,7 @@
             "filters": null,
             "order": "C",
             "shape": [
-                1356,
+                1314,
                 1159
             ],
             "zarr_format": 2
@@ -231,7 +231,7 @@
         },
         "b08/.zarray": {
             "chunks": [
-                1356,
+                1314,
                 1159
             ],
             "compressor": {
@@ -246,7 +246,7 @@
             "filters": null,
             "order": "C",
             "shape": [
-                1356,
+                1314,
                 1159
             ],
             "zarr_format": 2
@@ -306,7 +306,7 @@
         },
         "ndvi/.zarray": {
             "chunks": [
-                1356,
+                1314,
                 1159
             ],
             "compressor": {
@@ -321,7 +321,7 @@
             "filters": null,
             "order": "C",
             "shape": [
-                1356,
+                1314,
                 1159
             ],
             "zarr_format": 2
@@ -447,7 +447,7 @@
             "filters": null,
             "order": "C",
             "shape": [
-                1356
+                1314
             ],
             "zarr_format": 2
         },
