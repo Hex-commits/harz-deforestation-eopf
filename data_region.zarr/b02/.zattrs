@@ -3,5 +3,51 @@
         "y",
         "x"
     ],
-    "coordinates": "time"
+    "_eopf_attrs": {
+        "add_offset": -0.1,
+        "coordinates": [
+            "x",
+            "y"
+        ],
+        "dimensions": [
+            "y",
+            "x"
+        ],
+        "dtype": "<u2",
+        "fill_value": 0,
+        "long_name": "BOA reflectance from MSI acquisition at spectral band b02 492.7 nm",
+        "scale_factor": 0.0001,
+        "units": "digital_counts"
+    },
+    "coordinates": "spatial_ref time",
+    "dtype": "<u2",
+    "fill_value": 0,
+    "grid_mapping": "spatial_ref",
+    "long_name": "BOA reflectance from MSI acquisition at spectral band b02 492.7 nm",
+    "proj:bbox": [
+        600000.0,
+        5690220.0,
+        709800.0,
+        5800020.0
+    ],
+    "proj:epsg": 32632,
+    "proj:shape": [
+        10980,
+        10980
+    ],
+    "proj:transform": [
+        10.0,
+        0.0,
+        600000.0,
+        0.0,
+        -10.0,
+        5800020.0,
+        0.0,
+        0.0,
+        1.0
+    ],
+    "proj:wkt2": "PROJCS[\"WGS 84 / UTM zone 32N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",9],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32632\"]]",
+    "units": "digital_counts",
+    "valid_max": 65535,
+    "valid_min": 1
 }
