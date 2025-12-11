@@ -1,0 +1,461 @@
+{
+    "metadata": {
+        ".zattrs": {},
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "b02/.zarray": {
+            "chunks": [
+                1356,
+                1159
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1356,
+                1159
+            ],
+            "zarr_format": 2
+        },
+        "b02/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y",
+                "x"
+            ],
+            "_eopf_attrs": {
+                "add_offset": -0.1,
+                "coordinates": [
+                    "x",
+                    "y"
+                ],
+                "dimensions": [
+                    "y",
+                    "x"
+                ],
+                "dtype": "<u2",
+                "fill_value": 0,
+                "long_name": "BOA reflectance from MSI acquisition at spectral band b02 492.7 nm",
+                "scale_factor": 0.0001,
+                "units": "digital_counts"
+            },
+            "coordinates": "spatial_ref time",
+            "dtype": "<u2",
+            "fill_value": 0,
+            "grid_mapping": "spatial_ref",
+            "long_name": "BOA reflectance from MSI acquisition at spectral band b02 492.7 nm",
+            "proj:bbox": [
+                600000.0,
+                5690220.0,
+                709800.0,
+                5800020.0
+            ],
+            "proj:epsg": 32632,
+            "proj:shape": [
+                10980,
+                10980
+            ],
+            "proj:transform": [
+                10.0,
+                0.0,
+                600000.0,
+                0.0,
+                -10.0,
+                5800020.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "proj:wkt2": "PROJCS[\"WGS 84 / UTM zone 32N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",9],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32632\"]]",
+            "units": "digital_counts",
+            "valid_max": 65535,
+            "valid_min": 1
+        },
+        "b03/.zarray": {
+            "chunks": [
+                1356,
+                1159
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1356,
+                1159
+            ],
+            "zarr_format": 2
+        },
+        "b03/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y",
+                "x"
+            ],
+            "_eopf_attrs": {
+                "add_offset": -0.1,
+                "coordinates": [
+                    "x",
+                    "y"
+                ],
+                "dimensions": [
+                    "y",
+                    "x"
+                ],
+                "dtype": "<u2",
+                "fill_value": 0,
+                "long_name": "BOA reflectance from MSI acquisition at spectral band b03 559.8 nm",
+                "scale_factor": 0.0001,
+                "units": "digital_counts"
+            },
+            "coordinates": "spatial_ref time",
+            "dtype": "<u2",
+            "fill_value": 0,
+            "grid_mapping": "spatial_ref",
+            "long_name": "BOA reflectance from MSI acquisition at spectral band b03 559.8 nm",
+            "proj:bbox": [
+                600000.0,
+                5690220.0,
+                709800.0,
+                5800020.0
+            ],
+            "proj:epsg": 32632,
+            "proj:shape": [
+                10980,
+                10980
+            ],
+            "proj:transform": [
+                10.0,
+                0.0,
+                600000.0,
+                0.0,
+                -10.0,
+                5800020.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "proj:wkt2": "PROJCS[\"WGS 84 / UTM zone 32N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",9],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32632\"]]",
+            "units": "digital_counts",
+            "valid_max": 65535,
+            "valid_min": 1
+        },
+        "b04/.zarray": {
+            "chunks": [
+                1356,
+                1159
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1356,
+                1159
+            ],
+            "zarr_format": 2
+        },
+        "b04/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y",
+                "x"
+            ],
+            "_eopf_attrs": {
+                "add_offset": -0.1,
+                "coordinates": [
+                    "x",
+                    "y"
+                ],
+                "dimensions": [
+                    "y",
+                    "x"
+                ],
+                "dtype": "<u2",
+                "fill_value": 0,
+                "long_name": "BOA reflectance from MSI acquisition at spectral band b04 664.6 nm",
+                "scale_factor": 0.0001,
+                "units": "digital_counts"
+            },
+            "coordinates": "spatial_ref time",
+            "dtype": "<u2",
+            "fill_value": 0,
+            "grid_mapping": "spatial_ref",
+            "long_name": "BOA reflectance from MSI acquisition at spectral band b04 664.6 nm",
+            "proj:bbox": [
+                600000.0,
+                5690220.0,
+                709800.0,
+                5800020.0
+            ],
+            "proj:epsg": 32632,
+            "proj:shape": [
+                10980,
+                10980
+            ],
+            "proj:transform": [
+                10.0,
+                0.0,
+                600000.0,
+                0.0,
+                -10.0,
+                5800020.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "proj:wkt2": "PROJCS[\"WGS 84 / UTM zone 32N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",9],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32632\"]]",
+            "units": "digital_counts",
+            "valid_max": 65535,
+            "valid_min": 1
+        },
+        "b08/.zarray": {
+            "chunks": [
+                1356,
+                1159
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1356,
+                1159
+            ],
+            "zarr_format": 2
+        },
+        "b08/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y",
+                "x"
+            ],
+            "_eopf_attrs": {
+                "add_offset": -0.1,
+                "coordinates": [
+                    "x",
+                    "y"
+                ],
+                "dimensions": [
+                    "y",
+                    "x"
+                ],
+                "dtype": "<u2",
+                "fill_value": 0,
+                "long_name": "BOA reflectance from MSI acquisition at spectral band b08 832.8 nm",
+                "scale_factor": 0.0001,
+                "units": "digital_counts"
+            },
+            "coordinates": "spatial_ref time",
+            "dtype": "<u2",
+            "fill_value": 0,
+            "grid_mapping": "spatial_ref",
+            "long_name": "BOA reflectance from MSI acquisition at spectral band b08 832.8 nm",
+            "proj:bbox": [
+                600000.0,
+                5690220.0,
+                709800.0,
+                5800020.0
+            ],
+            "proj:epsg": 32632,
+            "proj:shape": [
+                10980,
+                10980
+            ],
+            "proj:transform": [
+                10.0,
+                0.0,
+                600000.0,
+                0.0,
+                -10.0,
+                5800020.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "proj:wkt2": "PROJCS[\"WGS 84 / UTM zone 32N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",9],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32632\"]]",
+            "units": "digital_counts",
+            "valid_max": 65535,
+            "valid_min": 1
+        },
+        "ndvi/.zarray": {
+            "chunks": [
+                1356,
+                1159
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1356,
+                1159
+            ],
+            "zarr_format": 2
+        },
+        "ndvi/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y",
+                "x"
+            ],
+            "coordinates": "spatial_ref time",
+            "dtype": "<u2",
+            "fill_value": 0,
+            "grid_mapping": "spatial_ref",
+            "proj:bbox": [
+                600000.0,
+                5690220.0,
+                709800.0,
+                5800020.0
+            ],
+            "proj:epsg": 32632,
+            "proj:shape": [
+                10980,
+                10980
+            ],
+            "proj:transform": [
+                10.0,
+                0.0,
+                600000.0,
+                0.0,
+                -10.0,
+                5800020.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "proj:wkt2": "PROJCS[\"WGS 84 / UTM zone 32N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",9],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32632\"]]",
+            "units": "digital_counts",
+            "valid_max": 65535,
+            "valid_min": 1
+        },
+        "spatial_ref/.zarray": {
+            "chunks": [],
+            "compressor": null,
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [],
+            "zarr_format": 2
+        },
+        "spatial_ref/.zattrs": {
+            "_ARRAY_DIMENSIONS": [],
+            "crs_wkt": "PROJCRS[\"WGS 84 / UTM zone 32N\",BASEGEOGCRS[\"WGS 84\",ENSEMBLE[\"World Geodetic System 1984 ensemble\",MEMBER[\"World Geodetic System 1984 (Transit)\"],MEMBER[\"World Geodetic System 1984 (G730)\"],MEMBER[\"World Geodetic System 1984 (G873)\"],MEMBER[\"World Geodetic System 1984 (G1150)\"],MEMBER[\"World Geodetic System 1984 (G1674)\"],MEMBER[\"World Geodetic System 1984 (G1762)\"],MEMBER[\"World Geodetic System 1984 (G2139)\"],MEMBER[\"World Geodetic System 1984 (G2296)\"],ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ENSEMBLEACCURACY[2.0]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",4326]],CONVERSION[\"UTM zone 32N\",METHOD[\"Transverse Mercator\",ID[\"EPSG\",9807]],PARAMETER[\"Latitude of natural origin\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",9,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"Scale factor at natural origin\",0.9996,SCALEUNIT[\"unity\",1],ID[\"EPSG\",8805]],PARAMETER[\"False easting\",500000,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Navigation and medium accuracy spatial referencing.\"],AREA[\"Between 6\u00b0E and 12\u00b0E, northern hemisphere between equator and 84\u00b0N, onshore and offshore. Algeria. Austria. Cameroon. Denmark. Equatorial Guinea. France. Gabon. Germany. Italy. Libya. Liechtenstein. Monaco. Netherlands. Niger. Nigeria. Norway. Sao Tome and Principe. Svalbard. Sweden. Switzerland. Tunisia. Vatican City State.\"],BBOX[0,6,84,12]],ID[\"EPSG\",32632]]",
+            "false_easting": 500000.0,
+            "false_northing": 0.0,
+            "geographic_crs_name": "WGS 84",
+            "grid_mapping_name": "transverse_mercator",
+            "horizontal_datum_name": "World Geodetic System 1984 ensemble",
+            "inverse_flattening": 298.257223563,
+            "latitude_of_projection_origin": 0.0,
+            "longitude_of_central_meridian": 9.0,
+            "longitude_of_prime_meridian": 0.0,
+            "prime_meridian_name": "Greenwich",
+            "projected_crs_name": "WGS 84 / UTM zone 32N",
+            "reference_ellipsoid_name": "WGS 84",
+            "scale_factor_at_central_meridian": 0.9996,
+            "semi_major_axis": 6378137.0,
+            "semi_minor_axis": 6356752.314245179
+        },
+        "time/.zarray": {
+            "chunks": [],
+            "compressor": null,
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [],
+            "zarr_format": 2
+        },
+        "time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [],
+            "calendar": "proleptic_gregorian",
+            "units": "days since 2025-04-30 10:27:01.024000"
+        },
+        "x/.zarray": {
+            "chunks": [
+                10980
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 3,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 2
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1159
+            ],
+            "zarr_format": 2
+        },
+        "x/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "x"
+            ]
+        },
+        "y/.zarray": {
+            "chunks": [
+                10980
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 3,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 2
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1356
+            ],
+            "zarr_format": 2
+        },
+        "y/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y"
+            ]
+        }
+    },
+    "zarr_consolidated_format": 1
+}
