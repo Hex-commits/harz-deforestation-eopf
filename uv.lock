@@ -672,6 +672,7 @@ dependencies = [
     { name = "pip" },
     { name = "pystac-client" },
     { name = "requests" },
+    { name = "rich" },
     { name = "rioxarray" },
     { name = "s3fs" },
     { name = "scikit-learn" },
@@ -695,12 +696,13 @@ requires-dist = [
     { name = "pip", specifier = ">=25.3" },
     { name = "pystac-client", specifier = ">=0.9.0" },
     { name = "requests", specifier = ">=2.32.5" },
+    { name = "rich", specifier = ">=14.2.0" },
     { name = "rioxarray", specifier = ">=0.19.0" },
     { name = "s3fs", specifier = ">=2025.10.0" },
     { name = "scikit-learn", specifier = ">=1.7.2" },
     { name = "shapely", specifier = ">=2.1.2" },
     { name = "xarray", specifier = ">=2025.6.1" },
-    { name = "xarray-eopf", specifier = ">=0.2.4" },
+    { name = "xarray-eopf", specifier = ">=0.2.5" },
     { name = "zarr", specifier = ">=2.18.3" },
 ]
 
@@ -1195,6 +1197,18 @@ wheels = [
 ]
 
 [[package]]
+name = "markdown-it-py"
+version = "4.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "mdurl" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5b/f5/4ec618ed16cc4f8fb3b701563655a69816155e79e24a17b651541804721d/markdown_it_py-4.0.0.tar.gz", hash = "sha256:cb0a2b4aa34f932c007117b194e945bd74e0ec24133ceb5bac59009cda1cb9f3", size = 73070, upload-time = "2025-08-11T12:57:52.854Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/94/54/e7d793b573f298e1c9013b8c4dade17d481164aa517d1d7148619c2cedbf/markdown_it_py-4.0.0-py3-none-any.whl", hash = "sha256:87327c59b172c5011896038353a81343b6754500a08cd7a4973bb48c6d578147", size = 87321, upload-time = "2025-08-11T12:57:51.923Z" },
+]
+
+[[package]]
 name = "markupsafe"
 version = "3.0.3"
 source = { registry = "https://pypi.org/simple" }
@@ -1249,6 +1263,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/c7/74/97e72a36efd4ae2bccb3463284300f8953f199b5ffbc04cbbb0ec78f74b1/matplotlib_inline-0.2.1.tar.gz", hash = "sha256:e1ee949c340d771fc39e241ea75683deb94762c8fa5f2927ec57c83c4dffa9fe", size = 8110, upload-time = "2025-10-23T09:00:22.126Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/af/33/ee4519fa02ed11a94aef9559552f3b17bb863f2ecfe1a35dc7f548cde231/matplotlib_inline-0.2.1-py3-none-any.whl", hash = "sha256:d56ce5156ba6085e00a9d54fead6ed29a9c47e215cd1bba2e976ef39f5710a76", size = 9516, upload-time = "2025-10-23T09:00:20.675Z" },
+]
+
+[[package]]
+name = "mdurl"
+version = "0.1.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz", hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba", size = 8729, upload-time = "2022-08-14T12:40:10.846Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8", size = 9979, upload-time = "2022-08-14T12:40:09.779Z" },
 ]
 
 [[package]]
@@ -1932,6 +1955,19 @@ wheels = [
 ]
 
 [[package]]
+name = "rich"
+version = "14.2.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "markdown-it-py" },
+    { name = "pygments" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/fb/d2/8920e102050a0de7bfabeb4c4614a49248cf8d5d7a8d01885fbb24dc767a/rich-14.2.0.tar.gz", hash = "sha256:73ff50c7c0c1c77c8243079283f4edb376f0f6442433aecb8ce7e6d0b92d1fe4", size = 219990, upload-time = "2025-10-09T14:16:53.064Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/25/7a/b0178788f8dc6cafce37a212c99565fa1fe7872c70c6c9c1e1a372d9d88f/rich-14.2.0-py3-none-any.whl", hash = "sha256:76bc51fe2e57d2b1be1f96c524b890b816e334ab4c1e45888799bfaab0021edd", size = 243393, upload-time = "2025-10-09T14:16:51.245Z" },
+]
+
+[[package]]
 name = "rioxarray"
 version = "0.20.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2341,7 +2377,7 @@ wheels = [
 
 [[package]]
 name = "xarray-eopf"
-version = "0.2.4"
+version = "0.2.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "affine" },
@@ -2358,9 +2394,9 @@ dependencies = [
     { name = "xcube-resampling" },
     { name = "zarr" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ff/b9/aedad9574cb185f5366b973970642f43975784d6b8f027039fe331c33a0c/xarray_eopf-0.2.4.tar.gz", hash = "sha256:5df1328b58a0637ba4c6c4c78657b3b4f95be97da2859b5a4aad1548f6b18b1e", size = 39600, upload-time = "2025-11-17T15:21:46.594Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/48/f2/b73ce7842ef70b545729d2c3a42a41da8498b24581c5768b4ba13a34af3c/xarray_eopf-0.2.5.tar.gz", hash = "sha256:68aa56dd6f74108811b951cbd0bf69d98ed2be5efa996e62b70284a8fb8e4f65", size = 41092, upload-time = "2025-11-26T15:14:53.166Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e5/e4/465eb3f3d0184ea6d564dfd27031af006b27b23aff5a6fe83ac6b5c5b265/xarray_eopf-0.2.4-py3-none-any.whl", hash = "sha256:d69b2a920a1827a81e00b3aeee58f87f893849806c0a50237c06577489e5414f", size = 46452, upload-time = "2025-11-17T15:21:45.317Z" },
+    { url = "https://files.pythonhosted.org/packages/68/6b/78d1e52e3b6e4c2bce1b80147f617dbad2dd21ce243b3988a8d45ab70033/xarray_eopf-0.2.5-py3-none-any.whl", hash = "sha256:d38518ec7578758f822f25696e01e062669ee0aa6b4749a52602c3df3672baf2", size = 48294, upload-time = "2025-11-26T15:14:52.232Z" },
 ]
 
 [[package]]
