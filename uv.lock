@@ -1,6 +1,6 @@
 version = 1
 revision = 3
-requires-python = "==3.12.6"
+requires-python = "==3.12.*"
 
 [[package]]
 name = "affine"
@@ -700,7 +700,7 @@ requires-dist = [
     { name = "scikit-learn", specifier = ">=1.7.2" },
     { name = "shapely", specifier = ">=2.1.2" },
     { name = "xarray", specifier = ">=2025.6.1" },
-    { name = "xarray-eopf", specifier = ">=0.2.4" },
+    { name = "xarray-eopf", specifier = ">=0.2.5" },
     { name = "zarr", specifier = ">=2.18.3" },
 ]
 
@@ -2341,7 +2341,7 @@ wheels = [
 
 [[package]]
 name = "xarray-eopf"
-version = "0.2.4"
+version = "0.2.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "affine" },
@@ -2358,9 +2358,9 @@ dependencies = [
     { name = "xcube-resampling" },
     { name = "zarr" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ff/b9/aedad9574cb185f5366b973970642f43975784d6b8f027039fe331c33a0c/xarray_eopf-0.2.4.tar.gz", hash = "sha256:5df1328b58a0637ba4c6c4c78657b3b4f95be97da2859b5a4aad1548f6b18b1e", size = 39600, upload-time = "2025-11-17T15:21:46.594Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/48/f2/b73ce7842ef70b545729d2c3a42a41da8498b24581c5768b4ba13a34af3c/xarray_eopf-0.2.5.tar.gz", hash = "sha256:68aa56dd6f74108811b951cbd0bf69d98ed2be5efa996e62b70284a8fb8e4f65", size = 41092, upload-time = "2025-11-26T15:14:53.166Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e5/e4/465eb3f3d0184ea6d564dfd27031af006b27b23aff5a6fe83ac6b5c5b265/xarray_eopf-0.2.4-py3-none-any.whl", hash = "sha256:d69b2a920a1827a81e00b3aeee58f87f893849806c0a50237c06577489e5414f", size = 46452, upload-time = "2025-11-17T15:21:45.317Z" },
+    { url = "https://files.pythonhosted.org/packages/68/6b/78d1e52e3b6e4c2bce1b80147f617dbad2dd21ce243b3988a8d45ab70033/xarray_eopf-0.2.5-py3-none-any.whl", hash = "sha256:d38518ec7578758f822f25696e01e062669ee0aa6b4749a52602c3df3672baf2", size = 48294, upload-time = "2025-11-26T15:14:52.232Z" },
 ]
 
 [[package]]
