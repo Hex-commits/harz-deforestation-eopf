@@ -1,13 +1,3 @@
-from pprint import pprint
-
-from shapely import geometry
-from pystac_client import Client
-import pandas as pd
-import geopandas as gpd
-import xarray as xr
-from distributed import LocalCluster
-import matplotlib.pyplot as plt
-
 import pandas as pd
 import xarray as xr
 import zarr
