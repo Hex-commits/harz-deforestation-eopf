@@ -11,3 +11,5 @@ uv add xarray
 ````
 
 Notice: Pip is only installed, because you can easily run JupyterLab-Notebooks in PyCharm. However, their workflow requires pip to be installed.
+
+You need GDAL to be installed on your respective working environment. 
