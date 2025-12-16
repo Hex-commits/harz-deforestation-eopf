@@ -23,6 +23,10 @@ Siebert C, Brauns M, Remmler P, Geyer S, Sauke F, Musolff A, Lechtenfeld O, Herz
 Seidl, R., Müller, J., Hothorn, T., Bässler, C., Heurich, M. and Kautz, M. (2016), Small beetle, large-scale drivers: how regional and landscape factors affect outbreaks of the European spruce bark beetle. J Appl Ecol, 53: 530-540. https://doi.org/10.1111/1365-2664.12540 
 
 
+Added 15/12/2025: 
+Planted: a dataset for planted forest identification from multi-satellite time series
+https://arxiv.org/html/2406.18554v1
+
 Interesting topics: 
 - Deforestation
 - Influence on air quality
