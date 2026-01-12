@@ -49,3 +49,5 @@ Arya: Heat retention
 
 Randy: Biodiversity, Deforestation
 
+Picture of monoculture: 
+https://i.guim.co.uk/img/static/sys-images/Environment/Pix/columnists/2011/9/26/1317034830991/Eucalyptus-Forest-in-Barr-006.jpg?crop=none&dpr=1&s=none&width=465
