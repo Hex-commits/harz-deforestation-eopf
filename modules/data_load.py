@@ -12,7 +12,7 @@ def get_best_item_for_year(catalog, year, bbox, collection="sentinel-2-l2a", max
     results = catalog.search(
         collections=[collection],
         bbox=bbox,
-        datetime=[f"{year}-06-01", f"{year}-08-30"],
+        datetime=[f"{year}-03-01", f"{year}-10-30"],
         query={"eo:cloud_cover": {"lt": max_cloud_cover}},
     )
     items = results.item_collection()
