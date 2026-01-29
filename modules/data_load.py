@@ -3,9 +3,14 @@ import xarray as xr
 import zarr
 import dask.array as da
 from zarr.errors import PathNotFoundError
+import logging
+
+logging.basicConfig()
 
 
-def get_best_item_for_year(catalog, year, bbox, collection="sentinel-2-l2a", max_cloud_cover=30):
+def get_best_item_for_year(
+    catalog, year, bbox, collection="sentinel-2-l2a", max_cloud_cover=30
+):
     """
     Return the least cloudy Sentinel-2 item for a given year and bbox.
     """
@@ -19,25 +24,34 @@ def get_best_item_for_year(catalog, year, bbox, collection="sentinel-2-l2a", max
     if not items:
         return None
     best_item = min(items, key=lambda x: x.properties.get("eo:cloud_cover", 999))
-    print(f"{year}: selected item with cloud cover = {best_item.properties.get('eo:cloud_cover', 'unknown')}%")
+    logging.debug(
+        f"{year}: selected item with cloud cover = {best_item.properties.get('eo:cloud_cover', 'unknown')}%"
+    )
     return best_item
 
 
 def load_sentinel_data(
-        catalog,
-        years,
-        bbox,
-        collection="sentinel-2-l2a",
-        asset="SR_10m",
-        max_cloud_cover=30,
-
-        chunks={}
+    catalog,
+    years,
+    bbox,
+    collection="sentinel-2-l2a",
+    asset="SR_10m",
+    max_cloud_cover=30,
+    chunks={},
 ):
     """
     Load Sentinel-2 data for a given bounding box and years.
     """
-    items = [item for year in years if
-             (item := get_best_item_for_year(catalog, year, bbox, collection, max_cloud_cover)) is not None]
+    items = [
+        item
+        for year in years
+        if (
+            item := get_best_item_for_year(
+                catalog, year, bbox, collection, max_cloud_cover
+            )
+        )
+        is not None
+    ]
     datasets = []
     for item in items:
         try:
@@ -47,8 +61,7 @@ def load_sentinel_data(
                 chunks=chunks,
             )
         except (FileNotFoundError, OSError) as e:
-            # Optional: log or warn here
-            # print(f"Skipping missing file: {item.assets[asset].href}")
+            logging.warning(f"Skipping missing file: {item.assets[asset].href}")
             continue
 
         time_coord = pd.to_datetime([item.datetime]).tz_localize(None)  # always naive
@@ -58,18 +71,26 @@ def load_sentinel_data(
 
 
 def load_sentinel_scl(
-        catalog,
-        years,
-        bbox,
-        collection="sentinel-2-l2a",
-        asset="SCL_20m",
-        max_cloud_cover=30
+    catalog,
+    years,
+    bbox,
+    collection="sentinel-2-l2a",
+    asset="SCL_20m",
+    max_cloud_cover=30,
 ):
     """
     Load Sentinel-2 SCL datasets as a separate xarray Dataset stacked along time.
     """
-    items = [item for year in years if
-             (item := get_best_item_for_year(catalog, year, bbox, collection, max_cloud_cover)) is not None]
+    items = [
+        item
+        for year in years
+        if (
+            item := get_best_item_for_year(
+                catalog, year, bbox, collection, max_cloud_cover
+            )
+        )
+        is not None
+    ]
 
     scl_datasets = []
     for item in items:
@@ -89,8 +110,7 @@ def load_sentinel_scl(
             )
 
         except (PathNotFoundError, FileNotFoundError, OSError, ValueError):
-            # Optional logging:
-            # print(f"Skipping missing SCL asset: {href}")
+            logging.warning(f"Skipping missing SCL asset: {href}")
             continue
         ds_scl = xr.Dataset({"scl": scl_da})
         time_coord = pd.to_datetime([item.datetime]).tz_localize(None)
@@ -131,7 +151,7 @@ def validate_scl(scl):
         8: "Cloud medium probability",  # Clouds detected with medium confidence
         9: "Cloud high probability",  # Clouds detected with high confidence
         10: "Thin cirrus",  # High altitude thin clouds
-        11: "Snow / ice"  # Snow or ice cover
+        11: "Snow / ice",  # Snow or ice cover
     }
 
     # Define which SCL classes are considered invalid for analysis
