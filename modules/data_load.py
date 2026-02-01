@@ -6,6 +6,7 @@ from zarr.errors import PathNotFoundError
 import logging
 
 logging.basicConfig()
+logger = logging.getLogger(__name__)
 
 
 def get_best_item_for_year(
@@ -24,7 +25,7 @@ def get_best_item_for_year(
     if not items:
         return None
     best_item = min(items, key=lambda x: x.properties.get("eo:cloud_cover", 999))
-    logging.debug(
+    logger.debug(
         f"{year}: selected item with cloud cover = {best_item.properties.get('eo:cloud_cover', 'unknown')}%"
     )
     return best_item
@@ -61,7 +62,7 @@ def load_sentinel_data(
                 chunks=chunks,
             )
         except (FileNotFoundError, OSError) as e:
-            logging.warning(f"Skipping missing file: {item.assets[asset].href}")
+            logger.warning(f"Skipping missing file: {item.assets[asset].href}")
             continue
 
         time_coord = pd.to_datetime([item.datetime]).tz_localize(None)  # always naive
@@ -110,7 +111,7 @@ def load_sentinel_scl(
             )
 
         except (PathNotFoundError, FileNotFoundError, OSError, ValueError):
-            logging.warning(f"Skipping missing SCL asset: {href}")
+            logger.warning(f"Skipping missing SCL asset: {href}")
             continue
         ds_scl = xr.Dataset({"scl": scl_da})
         time_coord = pd.to_datetime([item.datetime]).tz_localize(None)
