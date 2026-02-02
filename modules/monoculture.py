@@ -77,7 +77,7 @@ def spectral_texture(
     if year is not None:
         ds = ds.sel(year=year)
 
-    spectral = ds[list(bands)].to_array("band").mean("year", skipna=True)
+    spectral = ds[list(bands)].to_array("band")
 
     return spectral.rolling(x=window, y=window, center=True).std().mean("band")
 
